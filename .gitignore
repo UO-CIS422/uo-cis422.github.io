@@ -6,6 +6,9 @@ _site
 about.markdown
 *.DS_Store
 
+# PyCharm and other IntelliJ products
+.idea
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
