@@ -1,3 +1,11 @@
+# Jekyll stuff mostly
+.jekyll-cache
+Gemfile
+Gemfile.lock
+_site
+about.markdown
+*.DS_Store
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
