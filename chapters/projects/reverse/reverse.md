@@ -124,7 +124,10 @@ Coordinate systems for maps are typically in degrees
 latitude and longitude.  If we ask "how far is one 
 degree, in miles", the answer is "it depends".  There are ways to determine the distance between a pair of
 (latitude, longitude) pairs that involve trigonmetric functions.  The simplest approach, though, is to translate all the points to a coordinate system of meters.  The "UTM" coordinate system is a map 
-coordinate system in meters.  The coordinate units are called "easting" (x coordinate) and "northing" (y coordinate), relative to some origin point.  This works very rarely at the scale of thousands of kilometers, because the earth is not actually flat.  Within a range of a few hundred kilometers it works well enough for our purposes.  
+coordinate system in meters.  The coordinate units are called
+ "easting" (x coordinate) and "northing" (y coordinate), relative to
+  some origin point.  This works very poorly at the scale of thousands
+   of kilometers, because the earth is not actually flat.  Within a range of a few hundred kilometers it works well enough for our purposes.  
 There are multiple Python libraries that can convert latitude and longitude to the UTM coordinate system. The `geopy.distance` and `utm` modules have worked well for me. 
 
 ## How will it work? 
